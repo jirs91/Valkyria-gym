@@ -112,16 +112,18 @@ img {
 		"b c"
         "d e";
         .grid__actividades {grid-area: a}
-        .actividades__f {grid-area: b;
+        #carda {grid-area: b;
             justify-self: end;}
-        .actividades__c {grid-area: c;
+        #cardb  {grid-area: c;
             justify-self: start;}
-        .actividades__p {grid-area: d;
+        #cardc {grid-area: d;
             justify-self: end;}
-        .actividades__a {grid-area: e;
-            justify-self: start;}    
-
+        #cardd {grid-area: e;
+            justify-self: start;}
+            .card-img-top {width: 100%;
+                            height: 250px;}    
 }
+.card {background-color: gray;}
 
 .gprof {
 	display: grid;

@@ -103,18 +103,24 @@ img {
   grid-template-areas: "a a" "b c" "d e"; }
   .grid .grid__actividades {
     grid-area: a; }
-  .grid .actividades__f {
+  .grid #carda {
     grid-area: b;
     justify-self: end; }
-  .grid .actividades__c {
+  .grid #cardb {
     grid-area: c;
     justify-self: start; }
-  .grid .actividades__p {
+  .grid #cardc {
     grid-area: d;
     justify-self: end; }
-  .grid .actividades__a {
+  .grid #cardd {
     grid-area: e;
     justify-self: start; }
+  .grid .card-img-top {
+    width: 100%;
+    height: 250px; }
+
+.card {
+  background-color: gray; }
 
 .gprof {
   display: grid;
