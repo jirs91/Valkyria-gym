@@ -88,13 +88,20 @@ label {
 	color: $primary;
 }
 
-.map-container-6{
-    width: auto;
-    height: auto;
-    iframe{
-        width: vw;
-    }
+.form-horizontal{max-width: 500px;   
+    .card{max-width: 500px;       
+}     
 }
+.map-container-6{
+    overflow:hidden;
+    position:relative;
+    height:0;
+    iframe{
+    height:100%;
+    width:100%;
+    position:absolute;
+    }}
+
 span {color: $primary;}
 img {
 	display: inline-block;
@@ -120,8 +127,7 @@ img {
             justify-self: end;}
         #cardd {grid-area: e;
             justify-self: start;}
-            .card-img-top {width: 100%;
-                            height: 250px;}    
+            .card-img-top {height:250px;}    
 }
 .card {background-color: gray;}
 

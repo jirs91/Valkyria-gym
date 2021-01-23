@@ -81,11 +81,19 @@ h4 {
 label {
   color: silver; }
 
+.form-horizontal {
+  max-width: 500px; }
+  .form-horizontal .card {
+    max-width: 500px; }
+
 .map-container-6 {
-  width: auto;
-  height: auto; }
+  overflow: hidden;
+  position: relative;
+  height: 0; }
   .map-container-6 iframe {
-    width: vw; }
+    height: 100%;
+    width: 100%;
+    position: absolute; }
 
 span {
   color: silver; }
@@ -116,7 +124,6 @@ img {
     grid-area: e;
     justify-self: start; }
   .grid .card-img-top {
-    width: 100%;
     height: 250px; }
 
 .card {
