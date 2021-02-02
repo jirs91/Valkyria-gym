@@ -124,6 +124,7 @@ img {
     grid-area: e;
     justify-self: start; }
   .grid .card-img-top {
+    width: 100%;
     height: 100%; }
 
 .card {

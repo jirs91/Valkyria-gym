@@ -127,7 +127,8 @@ img {
             justify-self: end;}
         #cardd {grid-area: e;
             justify-self: start;}
-            .card-img-top {height:100%;}    
+            .card-img-top { width: 100%;
+                            height:100%;}    
 }
 .card {background-color: gray;}
 
