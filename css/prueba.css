@@ -108,7 +108,7 @@ img {
   grid-template-rows: 100px 1fr 1fr;
   grid-auto-flow: dense;
   gap: 1rem;
-  grid-template-areas: "a a" "b c" "d e"; }
+  grid-template-areas: "a a" "b c" "d e"; }
   .grid .grid__actividades {
     grid-area: a; }
   .grid #carda {
@@ -124,7 +124,7 @@ img {
     grid-area: e;
     justify-self: start; }
   .grid .card-img-top {
-    height: 250px; }
+    height: 100%; }
 
 .card {
   background-color: gray; }
@@ -135,7 +135,7 @@ img {
   grid-template-rows: 100px 1fr;
   grid-auto-flow: dense;
   gap: 1rem;
-  grid-template-areas: "np np" "v f"; }
+  grid-template-areas: "np np" "v f"; }
   .gprof .np {
     grid-area: np; }
   .gprof .fac {
